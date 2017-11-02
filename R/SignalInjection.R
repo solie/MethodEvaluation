@@ -118,7 +118,7 @@
 #' @export
 injectSignals <- function(connectionDetails,
                           cdmDatabaseSchema,
-                          oracleTempSchema = cdmDatabaseSchema,
+                          oracleTempSchema = oracleTempSchema,
                           exposureDatabaseSchema = cdmDatabaseSchema,
                           exposureTable = "drug_era",
                           outcomeDatabaseSchema = cdmDatabaseSchema,
